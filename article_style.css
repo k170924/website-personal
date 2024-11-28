@@ -1,0 +1,111 @@
+.parallax1 {
+    background-image: url("charlesdeluvio-3BDP8ZN57Q0-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0;
+}
+
+.parallax-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif; 
+    font-weight: bold;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+
+    background: linear-gradient(
+        to right,
+        #7953cd 20%,
+        #00affa 30%,
+        #0190cd 70%,
+        #764ada 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.paragraph1{
+    font-family: "Poppins", sans-serif;
+    margin: 10px 90px 10px 90px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.parallax2 {
+background-image: url("salt-wooden-small-plate-1.webp");
+background-size: cover;
+height: 500px;
+background-attachment: fixed;
+}
+
+
+.parallax3 {
+    background-image: url("pengawet-makanan.width-800.format-webp.webp");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;  
+}
+
+
+.parallax4 {
+    background-image: url("8fe3137d-bahan-pengawet-makanan-alami.jpg");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;  
+}
+
+
+
+.parallax5 {
+    background-image: url("pngtree-vibrant-texture-metallic-rainbow-reflection-on-unicorn-glass-image_13843037.png");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;  
+}
+
+
+.parallax6 {
+    background-image: url("1800x1200-spoonful-of-sugar-other-68130c94dfa531146d769c32a899049f_600x400.jpg");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;  
+}
+
+
+
+.parallax7 {
+    background-image: url("3986200817.jpg");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;  
+}
+
+
+
+.parallax8 {
+    background-image: url("charlesdeluvio-3BDP8ZN57Q0-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+

@@ -1,0 +1,76 @@
+@keyframes animasi {
+
+100% {
+
+background-position: 25% 50%;
+
+}
+
+
+}
+
+
+
+
+body {
+
+    background-image: url("subtle-prism.svg");
+background-size: cover;
+background-repeat: no-repeat;
+
+animation: animasi 5s infinite alternate ease-in;
+background-attachment: fixed;
+}
+
+.box {
+background-color: rgb(255, 255, 255);
+width: 48%;   
+height: 100%;   
+margin: auto;
+margin-top: 120px;         
+border-radius: 25px;  
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.button {
+    background-color: #0D92F4;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-align: center;
+    border: 5px;
+    margin-top: auto;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.paragraph {
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.image-box {
+background-image: url("photo-1705127134748-e5ba27393a7c.avif");
+height: 180px;
+background-size: cover;
+border-radius: 25px 25px 0px 0px;
+
+
+
+}
+
+.text-box {
+    padding: 8px 30px 30px 30px;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+background-color:  #DD6600;
+height: 50px;
+border-radius: 0px 0px 25px 25px;
+padding: 20px;
+}
+
